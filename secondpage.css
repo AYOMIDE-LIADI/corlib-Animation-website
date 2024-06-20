@@ -1,0 +1,460 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    height: 60px;
+    background-color: #333333;
+    gap: 686px;
+    position: fixed;
+    z-index: 99;
+}
+.flex{
+    display: flex;
+    cursor: pointer;
+}
+.logo{
+    height: 30px;
+    margin-top: 13px;
+    margin-left: 20px;
+}
+.libroholder p{
+    color: #9B9B9B;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 16px;
+}
+.libroholder p span{
+    margin-right: 11px;
+}
+.libroholder{
+    background-color: #222222;
+    width: 115px;
+    margin-left: 15px;
+}
+.imagediv{
+    display: flex;
+    border-left: 1px solid #727272;
+    
+}
+.image1{
+    height: 27px;
+    margin-top: 15px;
+    margin-left: 16px;
+    width: 26px;
+}
+.image2{
+    height: 27px;
+    margin-top: 15px;
+    margin-left: 16px;
+    width: 26px;
+}
+.image3{
+    height: 27px;
+    margin-top: 15px;
+    margin-left: 16px;
+    width: 26px;
+}
+.image4holder{
+    background-color:#7AC64D;
+}
+.image4{
+    height: 27px;
+    margin-top: 15px;
+    margin-left: 16px;
+    width: 26px;
+}
+.image5{
+    height: 17px;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 17px;
+}
+.imagediv div{
+    width: 60px;
+    border-right: 1px solid #727272;
+}
+.imagediv :hover{
+    background-color: #222222;
+    cursor: pointer;
+}
+.flex2{
+    display: flex;
+}
+.bg1{
+    background-image: url(./images/bg_1.jpg);
+    height: 100vh;
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    margin-top: 60px;
+}
+.bg2{
+    background-image: url(./images/pink-blue-blur-gradation-wallpaper-preview.jpg);
+    height: 100vh;
+    width: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    margin-top: 20px;
+}
+.display{
+    display: flex;
+    margin-bottom: -30px;
+}
+.first{
+    margin-left: 270px;
+    
+}
+.mg{
+    margin-top: 70px;
+    text-align: right; 
+}
+.mr{
+    margin-left: -190px;
+}
+.home1{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 250px;
+}
+.home{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-left: 200px;
+    padding-right: 30px;
+    text-align: right;
+    cursor: pointer;
+}
+.copy{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: right;
+    margin-right: 25px;
+}
+.copy span{
+    cursor: pointer;
+}
+.home:hover{
+    text-decoration: underline;
+}
+.mt{
+    margin-top: 70px;
+}
+.ex{
+    margin-top: 80px;
+    cursor: pointer;
+}
+.bg2{
+    margin-left: -700px;
+}
+.bg2 img{
+    height: 15px;
+}
+.flex3 p{
+    color: white;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    cursor: pointer;
+}
+.flex3 img{
+    height: 25px;
+    margin-top: 20px;
+    width: 40px;
+    cursor: pointer;
+}
+.flex3 img:hover{
+    height: 35px;
+}
+.flex3{
+    display: flex;
+    gap: 460px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.flex4{
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-left: 640px;
+    margin-top: 60px;
+}
+.text1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+}
+.text2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(115, 115, 115);
+    line-height: 32.4px;
+    font-weight: 300;
+}
+.pic{
+    height: 800px;
+    width: 97%;
+}
+.text3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:rgb(115, 115, 115);
+    line-height: 32.4px;
+    font-weight: 300;
+}
+.text4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
+}
+.text5{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:rgb(115, 115, 115);
+    font-weight: 300;
+    line-height: 32.4px;
+}
+.text6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:rgb(115, 115, 115);
+    font-weight: 300;
+    line-height: 32.4px;
+    margin: 0px 0px 16px;
+}
+.buttondiv{
+    display: flex;
+    gap: 10px;
+    margin-top: 60px;
+}
+.buttondiv div{
+    height: 30px;
+    width: 60px;
+    border-radius: 7px;
+    border: 1px solid rgb(186, 182, 182);
+    align-content: center;
+    cursor: pointer;
+}
+.buttondiv div:hover{
+    border: 1px solid black;
+}
+.buttondiv p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    margin-left: 10px;
+}
+.buttondiv span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    margin-left: 16px;
+}
+.text7{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    margin-left: 150px;
+    margin-top: 70px;
+}
+.pictextholder{
+    display: flex;
+    gap: 20px;
+}
+.pictextholder img{
+    height: 120px;
+    width: 120px;
+}
+.pictextholder p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:rgb(115, 115, 115);
+    font-weight: 300;
+    line-height: 32.4px;
+}
+.six{
+    font-family: Georgia,  serif;
+    font-size: 28px;
+    font-weight: 300;
+}
+.doublefit{
+    display: flex;
+    gap: 10px;
+    margin-top: 50px;
+}
+.imagee{
+    background-image: url(images/pic1.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;  
+}
+.text8holer{
+    margin-left: 20px;
+    width: 80%;
+}
+.text8{
+    font-family: Georgia, serif;
+    font-size: 20px;
+}
+.text9{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: rgb(204, 204, 204);
+}
+.text10{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color:rgb(115, 115, 115);
+    font-weight: 300;
+    line-height: 32.4px;
+}
+.Replybutton{
+    height: 26px;
+    width: 60px;
+    background-color:rgb(219, 217, 217) ;
+    border-radius: 4px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    align-content: center;
+    cursor: pointer;
+}
+.Replybutton p{
+    margin-left: 11px;
+    margin-top: 7px;
+}
+.Replybutton:hover{
+    background-color: black;
+    color: white;
+}
+.margin{
+    padding-left: 40px;
+}
+.margin1{
+    padding-left: 75px;
+}
+.margin2{
+    padding-left: 105px;
+}
+.top{
+    margin-top: 90px;
+}
+.text11{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+.placeholdersdiv{
+    height: 810px;
+    width: 90%;
+    background-color: rgb(249, 245, 245);
+    padding: 20px;
+}
+.placeholdersdiv p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 32.4px;
+    color: rgb(177, 173, 173) ;
+}
+.place{
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgb(202, 198, 198);
+}
+.place1{
+    width: 100%;
+    height: 300px;
+    border: 1px solid rgb(202, 198, 198);
+}
+.pinkbutton1{
+    height: 55px;
+    width: 170px;
+    background-color: #EE76AD;  
+    border-radius: 40px;
+    align-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;  
+    border: none;
+}
+.pinkbutton1:hover{
+    color:  #EE76AD ;
+    background-color: white;
+    border: 1px solid  #EE76AD ;
+ }
+ @media screen and (min-width: 320px) and (max-width: 425px) {
+    nav{
+        display: none;
+    }
+    .flex2{
+        display: inline;   
+        margin-left: 300px;  
+    }
+    .bg1{
+        position:relative;
+        width: 100vw;
+        margin-top: -18px;
+        height: 992px;  
+    } 
+    .bg2{
+        width: 145vw;
+        height: 1000px;
+        margin-left: -700px;
+        margin-top: -30px;
+        z-index: 99;
+    }
+    .flex3{
+        gap: 200px;
+        padding-top: 30px;
+        position: fixed;
+    }
+    .flex4{
+        margin-left: 30px;
+        display: inline;  
+        margin-top: -200px; 
+        position: absolute;
+        z-index: 2;
+    }
+    .first{
+        margin-left: -90px;
+        margin-top: -20px;
+    }
+   .display{
+    gap: 110px;
+   }
+    .home{
+        margin-left: -30px;
+        text-align: center;
+    }
+    .home:hover{
+        text-decoration: underline;
+
+    }
+    .copy{
+        text-align: center;
+        margin-right: 100px;
+        margin: 0;
+    }
+    .mt{
+        margin-top: -30px;
+    }
+    .pic{
+        height: 500px;
+        width: 97%;
+        margin-left: -20px;
+    }
+    .placeholdersdiv{
+        margin-left: -25px;
+    }
+ }
